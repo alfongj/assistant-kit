@@ -1,15 +1,15 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { ReactNode } from "react";
-import Toaster from "./toaster";
+import Toaster from "./components/toaster";
 import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ChatHN – Chat with Hacker News using natural language",
+  title: "Assistant Kit – Host your own OpenAI Assistant",
   description:
-    "Chat with Hacker News using natural language. Built with OpenAI Functions and Vercel AI SDK.",
+    "Host your own OpenAI Assistant. Built with OpenAI Assistant API and Vercel AI SDK.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
